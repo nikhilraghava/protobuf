@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message AddNum {
+  int32 num_a = 1;
+  int32 num_b = 2;
+  int32 num_c = 3;
+}
+
+//compiled using
+//"C:\Program Files\protoc\bin\protoc" -I=src --python_out=src src/main.proto
