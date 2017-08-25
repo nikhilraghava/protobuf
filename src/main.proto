@@ -5,5 +5,5 @@ message AddNum {
   int32 num_b = 2;
 }
 
-//compiled using
+//Compiled using
 //"C:\Program Files\protoc\bin\protoc" -I=src --python_out=src src/main.proto
