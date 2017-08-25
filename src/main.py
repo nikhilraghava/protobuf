@@ -1,7 +1,6 @@
 #! /usr/bin/python
 
 import main_pb2 as proto
-import sys
 
 num = proto.AddNum()
 # Ask user for input
@@ -17,5 +16,5 @@ with open('out.bin', 'rb') as f:
     num = proto.AddNum()
     num.ParseFromString(f.read())
     # Add both the number from buffer
-    ans = num.num_a + num.num_b
-    print(ans)
+    sum = num.num_a + num.num_b
+    print(sum)
