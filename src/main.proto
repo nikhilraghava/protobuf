@@ -3,7 +3,6 @@ syntax = "proto3";
 message AddNum {
   int32 num_a = 1;
   int32 num_b = 2;
-  int32 num_c = 3;
 }
 
 //compiled using

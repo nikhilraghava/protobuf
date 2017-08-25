@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='main.proto',
   package='',
   syntax='proto3',
-  serialized_pb=_b('\n\nmain.proto\"5\n\x06\x41\x64\x64Num\x12\r\n\x05num_a\x18\x01 \x01(\x05\x12\r\n\x05num_b\x18\x02 \x01(\x05\x12\r\n\x05num_c\x18\x03 \x01(\x05\x62\x06proto3')
+  serialized_pb=_b('\n\nmain.proto\"&\n\x06\x41\x64\x64Num\x12\r\n\x05num_a\x18\x01 \x01(\x05\x12\r\n\x05num_b\x18\x02 \x01(\x05\x62\x06proto3')
 )
 
 
@@ -46,13 +46,6 @@ _ADDNUM = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
-    _descriptor.FieldDescriptor(
-      name='num_c', full_name='AddNum.num_c', index=2,
-      number=3, type=5, cpp_type=1, label=1,
-      has_default_value=False, default_value=0,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      options=None),
   ],
   extensions=[
   ],
@@ -66,7 +59,7 @@ _ADDNUM = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=14,
-  serialized_end=67,
+  serialized_end=52,
 )
 
 DESCRIPTOR.message_types_by_name['AddNum'] = _ADDNUM
