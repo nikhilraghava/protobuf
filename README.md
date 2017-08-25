@@ -1,6 +1,6 @@
-# protobuf
+﻿# protobuf
 
-> Simple protocol buffering 💾 in Python. 
+> Protocol Buffers 💾 in Python - using Google's data interchange format
 
 Protocol buffering is similar to pickling in python but protocol buffering allows interoperability with other languages. In this repository I have buffered two numbers, `num_a` and `num_b` and added them by reading them from the buffer and displayed the sum onto the terminal.
 
